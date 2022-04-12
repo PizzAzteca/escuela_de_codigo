@@ -9,5 +9,4 @@
 
 3. Realizar el algoritmo y diagrama de flujo de un programa que calcule el área de un triángulo.
 
-![image](https://user-images.githubusercontent.com/68087383/163032341-de4cf772-9f4c-4a92-87f8-e0f67a1994e8.png)
-
+![image](https://user-images.githubusercontent.com/68087383/163032846-c82ee251-c3b6-48b9-bac9-f10818ff1844.png)
