@@ -60,13 +60,10 @@ FINSI}
 FINSI
 13. fin
 
-
 Algoritmo sin_titulo
-	Escribir "Escribe el numero 1"
+	Escribir "Escribe los 3 numeros"
 	Leer n1
-	Escribir "Escribe el numero 2"
 	Leer n2
-	Escribir "Escribe el numero 3"
 	Leer n3
 	Si n1<n2 Entonces
 		Si n2<n3 Entonces
@@ -79,10 +76,14 @@ Algoritmo sin_titulo
 			Fin Si
 		Fin Si
 	SiNo
-		Si n2<n3 Entonces
-			Escribir "El orden es ',n2,',',n3,',',n1,'"
+		Si n1<n3 Entonces
+			Escribir "El orden es ',n2,',',n1,',',n3,'"
 		SiNo
-			Escribir "El orden es ',n3,',',n2,',',n1,'"
+			Si n2<n3 Entonces
+				Escribir "El orden es ',n2,',',n3,',',n1,'"
+			SiNo
+				Escribir "El orden es ',n3,',',n2,',',n1,'"
+			Fin Si
 		Fin Si
 	Fin Si
 FinAlgoritmo
