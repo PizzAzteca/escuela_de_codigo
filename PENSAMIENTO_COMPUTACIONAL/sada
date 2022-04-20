@@ -1,0 +1,7 @@
+
+1. inicio
+2. declara (dia)int
+3. mostrar ("Escribe el numero de dia")
+4. asigna (dia)
+5. EN CASO DE (dia) HAGA caso 1:mostrar("Enero") caso 2:mostrar ("Martes") caso 3:mostrar ("Mieroles") caso 4:mostrar ("Jueves") caso 5:mostrar ("Viernes") caso 6:mostrar ("Sabado") caso 7:mostrar ("Domingo") SINO mostrar ("Revisa el numero") FIN CASO
+6. fin
