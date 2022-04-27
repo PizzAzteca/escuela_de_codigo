@@ -27,9 +27,84 @@ FinAlgoritmo
 
 
 ![image](https://user-images.githubusercontent.com/68087383/165593492-65f8a330-3eea-4e37-b8cb-a7bafd2e7783.png)
+Algoritmo calificaciones 
+	c<-0
+	i<-1
+	ma<-0
+	me<-0
+	Mientras i<11 Hacer
+		Escribir "Ingresa la calificacion ',i,'"
+		Leer c
+		Si c<10 Entonces
+			Si c>7 Entonces
+				ma<-ma+1
+			SiNo
+				me<-me+1
+			Fin Si
+		SiNo
+			Si c<0 Entonces
+				Escribir "Escribe bien la calificacion"
+				m<-m+1
+				i<-i-1
+			SiNo
+				Si c>10 Entonces
+					Escribir "Escribe bien la calificacion"
+					m<-m+1
+					i<-i-1
+				SiNo
+					
+				Fin Si
+			Fin Si
+			Escribir "Escribe bien la calificacion"
+			m<-m+1
+			i<-i-1
+		FinSi
+		i=i+1
+	Fin Mientras
+	Escribir "Las calificaciones menores a 7 son ',me,', las mayores son ',ma,' y las incorrectas son ',m,'"
+	
+FinAlgoritmo
 
 ![image](https://user-images.githubusercontent.com/68087383/165590561-085a66a0-54d8-4f70-b46b-aecb590edd3f.png)
 
 ![image](https://user-images.githubusercontent.com/68087383/165596956-c907d8e6-a174-43f9-acde-0ef61c6c860a.png)
+
+Algoritmo calificaciones 
+	c<-0
+	i<-1
+	ma<-0
+	me<-0
+	Mientras i<11 Hacer
+		Escribir "Ingresa la calificacion ',i,'"
+		Leer c
+		Si c<10 Entonces
+			Si c>7 Entonces
+				ma<-ma+1
+			SiNo
+				me<-me+1
+			Fin Si
+		SiNo
+			Si c<0 Entonces
+				Escribir "Escribe bien la calificacion"
+				m<-m+1
+				i<-i-1
+			SiNo
+				Si c>10 Entonces
+					Escribir "Escribe bien la calificacion"
+					m<-m+1
+					i<-i-1
+				SiNo
+					
+				Fin Si
+			Fin Si
+			Escribir "Escribe bien la calificacion"
+			m<-m+1
+			i<-i-1
+		FinSi
+		i=i+1
+	Fin Mientras
+	Escribir "Las calificaciones menores a 7 son ',me,', las mayores son ',ma,' y las incorrectas son ',m,'"
+	
+FinAlgoritmo
 
 ![image](https://user-images.githubusercontent.com/68087383/165597036-61f209f6-d141-4bc0-b0ed-b4f562c5d7fc.png)
