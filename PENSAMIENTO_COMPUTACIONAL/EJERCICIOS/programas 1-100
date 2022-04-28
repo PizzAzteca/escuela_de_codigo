@@ -1,0 +1,106 @@
+Algoritmo sin_titulo
+	i<-10
+	ns<-azar(100)+1
+	in<-0
+	Escribir "Adivina el numero del 1 al 100"
+	Repetir
+		Escribir "Tienes ',i,' oportunidades"
+		Leer n
+			i=i-1
+			in=in+1
+			Si n>0 y n<100 Entonces
+				Si n<ns Entonces
+					Escribir "El numero es mas bajo"
+				SiNo
+					Si n>ns Entonces
+						Escribir "El numero es mas alto"
+					SiNo
+						
+					Fin Si
+				Fin Si
+			SiNo
+				Escribir "Solo escribe numeros del 1 al 100"
+				i=i+1
+			Fin Si
+		Hasta Que n=ns 
+	Escribir "Adivinaste el numero en ',in,' intentos"
+FinAlgoritmo
+
+
+
+
+
+Algoritmo sin_titulo
+	i<-10
+	ns<-azar(100)+1
+	in<-0
+	Escribir "Adivina el numero del 1 al 100"
+	Mientras i<>0 o n=ns Hacer
+			Escribir "Tienes ',i,' oportunidades"
+			Leer n
+			i=i-1
+			in=in+1
+			Si n>0 y n<100 Entonces
+				Si n<ns Entonces
+					Escribir "El numero es mas bajo"
+				SiNo
+					Si n>ns Entonces
+						Escribir "El numero es mas alto"
+					SiNo
+						Si n=ns Entonces
+							Escribir "Adivinaste el numero en ',in,' intentos"
+						SiNo
+							Escribir "Se te acabaron los intentos el numero era ',ns,' "
+						Fin Si
+					Fin Si
+				Fin Si
+			SiNo
+				Escribir "Solo escribe numeros del 1 al 100"
+				i=i+1
+			Fin Si
+		Fin Mientras
+		
+FinAlgoritmo
+
+
+Algoritmo sin_titulo
+	Repetir
+		Escribir "Escribe un numero del 0 al 999"
+		Leer n
+		Si n>0 y n<=999 Entonces
+			Si n>0 y n<=9 Entonces
+				Escribir "Tu numero tiene 1 cifra"
+			SiNo
+				Si n>9 y n<=99 Entonces
+					Escribir "El numero tiene 2 cifras"
+				SiNo
+					Escribir  "El numero tiene 3 cifras"
+				Fin Si
+			Fin Si
+		SiNo
+			Escribir "ERROR"
+		Fin Si
+	Hasta Que n=0
+	
+FinAlgoritmo
+
+
+Algoritmo sin_titulo
+	Si n<ns Entonces
+		Escribir "El numero es mas bajo"
+	SiNo
+		Si n>ns Entonces
+			Escribir "El numero es mas alto"
+		SiNo
+			Si n<1 Entonces
+				Escribir "Solo escribe numeros del 1 al 100"
+			SiNo
+				Si n>100 Entonces
+					Escribir "Solo escribe numeros del 1 al 100"
+				SiNo
+					
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+FinAlgoritmo
